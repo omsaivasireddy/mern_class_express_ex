@@ -3,12 +3,14 @@ const express = require('express')
 let mongodb = require('mongodb')
 //import url
 const url = require('../url')
-//create mongo client
+//create mongoclient
 let mcl = mongodb.MongoClient
 //create router instance
 let router = express.Router()
-//create rest api
-router.delete("/", (req, res) => {
+//database name
+let dbName = 'miniprj'
+//create restapi
+router.post("/", (req, res) => {
     let obj = {
         "p_id": req.body.p_id
     }
@@ -17,7 +19,7 @@ router.delete("/", (req, res) => {
         if (err)
             console.log('Error in connection:- ', err)
         else {
-            let db = conn.db("nodedb")
+            let db = conn.db(dbName)
             db.collection('products').deleteOne(obj, (err, result) => {
                 if (err)
                     res.json({ 'delete': 'Error ' + err })
@@ -35,5 +37,37 @@ router.delete("/", (req, res) => {
         }
     })
 })
+//Delete product from cart
+router.post("/deleteCart", (req, res) => {
+    let obj = {
+        "p_id": req.body.p_id,
+        "u_name": req.body.u_name
+    }
+    //connect to mongodb
+    mcl.connect(url, (err, conn) => {
+        if (err)
+            console.log('Error in connection:- ', err)
+        else {
+            let db = conn.db(dbName)
+            db.collection('cart').deleteOne(obj, (err, result) => {
+                if (err)
+                    res.json({ 'cartDelete': 'Error ' + err })
+                else {
+                    if (result.deletedCount != 0) {
+                        console.log(`Cart data from ${obj.u_name} deleted`)
+                        res.json({ 'cartDelete': 'success' })
+                    }
+                    else {
+                        console.log('Cart Data Not deleted')
+                        res.json({ 'cartDelete': 'Record Not found' })
+                    }
+                    conn.close()
+                }
+            })
+        }
+    })
+})
+//Delete user
+//? ? ?
 //export router
 module.exports = router

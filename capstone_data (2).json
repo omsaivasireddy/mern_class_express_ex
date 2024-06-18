@@ -1,0 +1,802 @@
+[
+    {
+        "p_id": 1,
+        "p_name": "Canon EOS 1500D DSLR Camera",
+        "p_cost": 32999,
+        "p_cat": "Electronics",
+        "p_desc": "24.1MP DSLR camera from Canon with EF-S 18-55mm lens.",
+        "p_img": "https://example.com/images/canon_1500d.jpg"
+    },
+    {
+        "p_id": 2,
+        "p_name": "Sony PlayStation 5",
+        "p_cost": 49999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Sony with 4K gaming support.",
+        "p_img": "https://example.com/images/ps5.jpg"
+    },
+    {
+        "p_id": 3,
+        "p_name": "Apple iPhone 13 Pro",
+        "p_cost": 99999,
+        "p_cat": "Electronics",
+        "p_desc": "Latest flagship smartphone from Apple with triple-camera setup.",
+        "p_img": "https://example.com/images/iphone_13_pro.jpg"
+    },
+    {
+        "p_id": 4,
+        "p_name": "Samsung 55\" QLED 4K Smart TV",
+        "p_cost": 79999,
+        "p_cat": "Electronics",
+        "p_desc": "55-inch QLED TV from Samsung with 4K resolution and smart features.",
+        "p_img": "https://example.com/images/samsung_qled_tv.jpg"
+    },
+    {
+        "p_id": 5,
+        "p_name": "Bose QuietComfort 35 II Wireless Headphones",
+        "p_cost": 29999,
+        "p_cat": "Electronics",
+        "p_desc": "Noise-canceling wireless headphones from Bose with Alexa voice control.",
+        "p_img": "https://example.com/images/bose_headphones.jpg"
+    },
+    {
+        "p_id": 6,
+        "p_name": "Amazon Echo Dot (4th Gen)",
+        "p_cost": 4999,
+        "p_cat": "Electronics",
+        "p_desc": "Smart speaker with Alexa from Amazon, compact design with improved sound.",
+        "p_img": "https://example.com/images/echo_dot.jpg"
+    },
+    {
+        "p_id": 7,
+        "p_name": "Dell XPS 13 Laptop",
+        "p_cost": 89999,
+        "p_cat": "Electronics",
+        "p_desc": "Ultra-thin and lightweight laptop from Dell, with 13-inch InfinityEdge display.",
+        "p_img": "https://example.com/images/dell_xps_13.jpg"
+    },
+    {
+        "p_id": 8,
+        "p_name": "Nintendo Switch Console",
+        "p_cost": 34999,
+        "p_cat": "Electronics",
+        "p_desc": "Hybrid gaming console from Nintendo, play at home or on-the-go.",
+        "p_img": "https://example.com/images/nintendo_switch.jpg"
+    },
+    {
+        "p_id": 9,
+        "p_name": "Fitbit Versa 3 Smartwatch",
+        "p_cost": 24999,
+        "p_cat": "Electronics",
+        "p_desc": "Fitness-focused smartwatch from Fitbit with built-in GPS and heart rate monitor.",
+        "p_img": "https://example.com/images/fitbit_versa_3.jpg"
+    },
+    {
+        "p_id": 10,
+        "p_name": "GoPro HERO9 Black",
+        "p_cost": 44999,
+        "p_cat": "Electronics",
+        "p_desc": "Action camera from GoPro with 5K video recording and waterproof design.",
+        "p_img": "https://example.com/images/gopro_hero9.jpg"
+    },
+    {
+        "p_id": 11,
+        "p_name": "Microsoft Surface Laptop 4",
+        "p_cost": 89999,
+        "p_cat": "Electronics",
+        "p_desc": "Sleek and powerful laptop from Microsoft, available in various configurations.",
+        "p_img": "https://example.com/images/surface_laptop_4.jpg"
+    },
+    {
+        "p_id": 12,
+        "p_name": "LG CX 65\" OLED 4K Smart TV",
+        "p_cost": 159999,
+        "p_cat": "Electronics",
+        "p_desc": "65-inch OLED TV from LG with 4K resolution, Dolby Vision, and smart features.",
+        "p_img": "https://example.com/images/lg_cx_oled_tv.jpg"
+    },
+    {
+        "p_id": 13,
+        "p_name": "Nikon D5600 DSLR Camera",
+        "p_cost": 44999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP DSLR camera from Nikon with AF-P 18-55mm VR lens.",
+        "p_img": "https://example.com/images/nikon_d5600.jpg"
+    },
+    {
+        "p_id": 14,
+        "p_name": "Apple MacBook Air M1",
+        "p_cost": 92999,
+        "p_cat": "Electronics",
+        "p_desc": "Thin and light MacBook Air powered by Apple's M1 chip.",
+        "p_img": "https://example.com/images/macbook_air_m1.jpg"
+    },
+    {
+        "p_id": 15,
+        "p_name": "Samsung Galaxy Watch 4",
+        "p_cost": 29999,
+        "p_cat": "Electronics",
+        "p_desc": "Smartwatch from Samsung with advanced health monitoring features.",
+        "p_img": "https://example.com/images/galaxy_watch_4.jpg"
+    },
+    {
+        "p_id": 16,
+        "p_name": "Sony WH-1000XM4 Wireless Headphones",
+        "p_cost": 36999,
+        "p_cat": "Electronics",
+        "p_desc": "Premium noise-canceling headphones from Sony with LDAC support.",
+        "p_img": "https://example.com/images/sony_headphones.jpg"
+    },
+    {
+        "p_id": 17,
+        "p_name": "Google Pixel 6 Pro",
+        "p_cost": 89999,
+        "p_cat": "Electronics",
+        "p_desc": "Flagship smartphone from Google with advanced camera capabilities.",
+        "p_img": "https://example.com/images/pixel_6_pro.jpg"
+    },
+    {
+        "p_id": 18,
+        "p_name": "Xbox Series X",
+        "p_cost": 59999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Microsoft with 4K gaming support.",
+        "p_img": "https://example.com/images/xbox_series_x.jpg"
+    },
+    {
+        "p_id": 19,
+        "p_name": "Amazon Kindle Paperwhite",
+        "p_cost": 13999,
+        "p_cat": "Electronics",
+        "p_desc": "Waterproof e-reader from Amazon with a high-resolution display.",
+        "p_img": "https://example.com/images/kindle_paperwhite.jpg"
+    },
+    {
+        "p_id": 20,
+        "p_name": "DJI Mavic Air 2",
+        "p_cost": 84999,
+        "p_cat": "Electronics",
+        "p_desc": "Foldable drone from DJI with 4K camera and intelligent shooting modes.",
+        "p_img": "https://example.com/images/mavic_air_2.jpg"
+    },
+    {
+        "p_id": 21,
+        "p_name": "Canon PowerShot G7 X Mark III",
+        "p_cost": 64999,
+        "p_cat": "Electronics",
+        "p_desc": "Compact digital camera with a 20.1MP sensor and 4K video recording.",
+        "p_img": "https://example.com/images/powershot_g7x_mark3.jpg"
+    },
+    {
+        "p_id": 22,
+        "p_name": "Apple iPad Pro (5th Gen)",
+        "p_cost": 109999,
+        "p_cat": "Electronics",
+        "p_desc": "Powerful tablet from Apple with M1 chip and Liquid Retina XDR display.",
+        "p_img": "https://example.com/images/ipad_pro_5th_gen.jpg"
+    },
+    {
+        "p_id": 23,
+        "p_name": "Samsung Galaxy S21 Ultra",
+        "p_cost": 119999,
+        "p_cat": "Electronics",
+        "p_desc": "High-end smartphone from Samsung with a 108MP camera and 5G support.",
+        "p_img": "https://example.com/images/galaxy_s21_ultra.jpg"
+    },
+    {
+        "p_id": 24,
+        "p_name": "Bose SoundLink Revolve+ Bluetooth Speaker",
+        "p_cost": 24999,
+        "p_cat": "Electronics",
+        "p_desc": "Portable Bluetooth speaker with 360-degree sound and water-resistant design.",
+        "p_img": "https://example.com/images/soundlink_revolve_plus.jpg"
+    },
+    {
+        "p_id": 25,
+        "p_name": "LG UltraGear 27GL850-B Gaming Monitor",
+        "p_cost": 44999,
+        "p_cat": "Electronics",
+        "p_desc": "27-inch gaming monitor from LG with QHD resolution and 144Hz refresh rate.",
+        "p_img": "https://example.com/images/lg_ultragear_monitor.jpg"
+    },
+    {
+        "p_id": 26,
+        "p_name": "Fitbit Charge 5 Fitness Tracker",
+        "p_cost": 14999,
+        "p_cat": "Electronics",
+        "p_desc": "Advanced fitness tracker with built-in GPS and heart rate monitoring.",
+        "p_img": "https://example.com/images/fitbit_charge_5.jpg"
+    },
+    {
+        "p_id": 27,
+        "p_name": "PlayStation VR Headset",
+        "p_cost": 29999,
+        "p_cat": "Electronics",
+        "p_desc": "Virtual reality headset for PlayStation gaming consoles.",
+        "p_img": "https://example.com/images/playstation_vr.jpg"
+    },
+    {
+        "p_id": 28,
+        "p_name": "Roku Ultra Streaming Player",
+        "p_cost": 6999,
+        "p_cat": "Electronics",
+        "p_desc": "High-performance streaming player with 4K HDR and voice remote.",
+        "p_img": "https://example.com/images/roku_ultra.jpg"
+    },
+    {
+        "p_id": 29,
+        "p_name": "Garmin Fenix 6X Pro Solar",
+        "p_cost": 89999,
+        "p_cat": "Electronics",
+        "p_desc": "Multisport GPS smartwatch with solar charging and heart rate monitoring.",
+        "p_img": "https://example.com/images/garmin_fenix_6x.jpg"
+    },
+    {
+        "p_id": 30,
+        "p_name": "Anker PowerCore 26800 Portable Charger",
+        "p_cost": 5999,
+        "p_cat": "Electronics",
+        "p_desc": "High-capacity portable charger with three USB ports for charging multiple devices.",
+        "p_img": "https://example.com/images/powercore_26800.jpg"
+    },
+    {
+        "p_id": 31,
+        "p_name": "GoPro HERO10 Black",
+        "p_cost": 54999,
+        "p_cat": "Electronics",
+        "p_desc": "The latest flagship action camera from GoPro with improved performance and 5.3K video recording.",
+        "p_img": "https://example.com/images/gopro_hero10.jpg"
+    },
+    {
+        "p_id": 32,
+        "p_name": "Sony A7 III Mirrorless Camera",
+        "p_cost": 164999,
+        "p_cat": "Electronics",
+        "p_desc": "Full-frame mirrorless camera from Sony with 24.2MP sensor and 4K video recording.",
+        "p_img": "https://example.com/images/sony_a7iii.jpg"
+    },
+    {
+        "p_id": 33,
+        "p_name": "Apple Watch Series 7",
+        "p_cost": 43999,
+        "p_cat": "Electronics",
+        "p_desc": "Latest smartwatch from Apple with larger display and advanced health features.",
+        "p_img": "https://example.com/images/apple_watch_series_7.jpg"
+    },
+    {
+        "p_id": 34,
+        "p_name": "Xbox Series S",
+        "p_cost": 34999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Microsoft with digital-only design and 1440p gaming support.",
+        "p_img": "https://example.com/images/xbox_series_s.jpg"
+    },
+    {
+        "p_id": 35,
+        "p_name": "Samsung Galaxy Tab S7+",
+        "p_cost": 79999,
+        "p_cat": "Electronics",
+        "p_desc": "Premium Android tablet from Samsung with S Pen support and Super AMOLED display.",
+        "p_img": "https://example.com/images/galaxy_tab_s7_plus.jpg"
+    },
+    {
+        "p_id": 36,
+        "p_name": "DJI Osmo Pocket 2",
+        "p_cost": 34999,
+        "p_cat": "Electronics",
+        "p_desc": "Pocket-sized gimbal camera from DJI with 4K video recording and three-axis stabilization.",
+        "p_img": "https://example.com/images/osmo_pocket_2.jpg"
+    },
+    {
+        "p_id": 37,
+        "p_name": "Bose Frames Audio Sunglasses",
+        "p_cost": 19999,
+        "p_cat": "Electronics",
+        "p_desc": "Sunglasses with built-in Bose speakers for immersive audio experience.",
+        "p_img": "https://example.com/images/bose_frames.jpg"
+    },
+    {
+        "p_id": 38,
+        "p_name": "NVIDIA GeForce RTX 3080 Graphics Card",
+        "p_cost": 79999,
+        "p_cat": "Electronics",
+        "p_desc": "High-performance graphics card for PC gaming with real-time ray tracing support.",
+        "p_img": "https://example.com/images/rtx_3080.jpg"
+    },
+    {
+        "p_id": 39,
+        "p_name": "Apple AirPods Pro",
+        "p_cost": 24999,
+        "p_cat": "Electronics",
+        "p_desc": "True wireless earbuds from Apple with active noise cancellation and customizable fit.",
+        "p_img": "https://example.com/images/airpods_pro.jpg"
+    },
+    {
+        "p_id": 40,
+        "p_name": "Razer BlackWidow V3 Mechanical Gaming Keyboard",
+        "p_cost": 11999,
+        "p_cat": "Electronics",
+        "p_desc": "Mechanical gaming keyboard from Razer with customizable Chroma RGB lighting.",
+        "p_img": "https://example.com/images/blackwidow_v3.jpg"
+    },
+    {
+        "p_id": 41,
+        "p_name": "OnePlus 9 Pro",
+        "p_cost": 64999,
+        "p_cat": "Electronics",
+        "p_desc": "Flagship smartphone from OnePlus with Hasselblad camera system and 120Hz display.",
+        "p_img": "https://example.com/images/oneplus_9_pro.jpg"
+    },
+    {
+        "p_id": 42,
+        "p_name": "Sony WH-1000XM3 Wireless Headphones",
+        "p_cost": 29999,
+        "p_cat": "Electronics",
+        "p_desc": "High-quality noise-canceling headphones from Sony with LDAC support.",
+        "p_img": "https://example.com/images/sony_wh1000xm3.jpg"
+    },
+    {
+        "p_id": 43,
+        "p_name": "Samsung Odyssey G9 Gaming Monitor",
+        "p_cost": 184999,
+        "p_cat": "Electronics",
+        "p_desc": "49-inch ultrawide gaming monitor from Samsung with 240Hz refresh rate and HDR support.",
+        "p_img": "https://example.com/images/samsung_odyssey_g9.jpg"
+    },
+    {
+        "p_id": 44,
+        "p_name": "Amazon Echo Show 10 (3rd Gen)",
+        "p_cost": 24999,
+        "p_cat": "Electronics",
+        "p_desc": "Smart display with motion tracking from Amazon, rotates to face you during video calls.",
+        "p_img": "https://example.com/images/echo_show_10.jpg"
+    },
+    {
+        "p_id": 45,
+        "p_name": "Dell Alienware AW3420DW Curved Gaming Monitor",
+        "p_cost": 99999,
+        "p_cat": "Electronics",
+        "p_desc": "34-inch curved gaming monitor from Dell with WQHD resolution and G-Sync.",
+        "p_img": "https://example.com/images/alienware_aw3420dw.jpg"
+    },
+    {
+        "p_id": 46,
+        "p_name": "JBL Flip 5 Portable Bluetooth Speaker",
+        "p_cost": 8999,
+        "p_cat": "Electronics",
+        "p_desc": "Compact and portable Bluetooth speaker from JBL with IPX7 waterproof rating.",
+        "p_img": "https://example.com/images/jbl_flip_5.jpg"
+    },
+    {
+        "p_id": 47,
+        "p_name": "Microsoft Surface Pro 8",
+        "p_cost": 119999,
+        "p_cat": "Electronics",
+        "p_desc": "Versatile 2-in-1 laptop from Microsoft with Intel Core processor and Windows 11.",
+        "p_img": "https://example.com/images/surface_pro_8.jpg"
+    },
+    {
+        "p_id": 48,
+        "p_name": "Sony PlayStation VR Mega Pack",
+        "p_cost": 24999,
+        "p_cat": "Electronics",
+        "p_desc": "Bundle pack including PlayStation VR headset, camera, and five games.",
+        "p_img": "https://example.com/images/ps_vr_mega_pack.jpg"
+    },
+    {
+        "p_id": 49,
+        "p_name": "Google Nest Audio Smart Speaker",
+        "p_cost": 9999,
+        "p_cat": "Electronics",
+        "p_desc": "Smart speaker with rich sound and Google Assistant built-in.",
+        "p_img": "https://example.com/images/nest_audio.jpg"
+    },
+    {
+        "p_id": 50,
+        "p_name": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
+        "p_cost": 15999,
+        "p_cat": "Electronics",
+        "p_desc": "High-end mechanical gaming keyboard with Cherry MX switches and customizable RGB lighting.",
+        "p_img": "https://example.com/images/k95_platinum_xt.jpg"
+    },
+    {
+        "p_id": 51,
+        "p_name": "Sony WH-1000XM4 Wireless Headphones",
+        "p_cost": 36999,
+        "p_cat": "Electronics",
+        "p_desc": "Premium noise-canceling headphones from Sony with LDAC support.",
+        "p_img": "https://example.com/images/sony_headphones.jpg"
+    },
+    {
+        "p_id": 52,
+        "p_name": "Google Pixel 6 Pro",
+        "p_cost": 89999,
+        "p_cat": "Electronics",
+        "p_desc": "Flagship smartphone from Google with advanced camera capabilities.",
+        "p_img": "https://example.com/images/pixel_6_pro.jpg"
+    },
+    {
+        "p_id": 53,
+        "p_name": "Xbox Series X",
+        "p_cost": 59999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Microsoft with 4K gaming support.",
+        "p_img": "https://example.com/images/xbox_series_x.jpg"
+    },
+    {
+        "p_id": 54,
+        "p_name": "Amazon Kindle Paperwhite",
+        "p_cost": 13999,
+        "p_cat": "Electronics",
+        "p_desc": "Waterproof e-reader from Amazon with a high-resolution display.",
+        "p_img": "https://example.com/images/kindle_paperwhite.jpg"
+    },
+    {
+        "p_id": 55,
+        "p_name": "DJI Mavic Air 2",
+        "p_cost": 84999,
+        "p_cat": "Electronics",
+        "p_desc": "Foldable drone from DJI with 4K camera and intelligent shooting modes.",
+        "p_img": "https://example.com/images/mavic_air_2.jpg"
+    },
+    {
+        "p_id": 56,
+        "p_name": "Canon PowerShot G7 X Mark III",
+        "p_cost": 64999,
+        "p_cat": "Electronics",
+        "p_desc": "Compact digital camera with a 20.1MP sensor and 4K video recording.",
+        "p_img": "https://example.com/images/powershot_g7x_mark3.jpg"
+    },
+    {
+        "p_id": 57,
+        "p_name": "Apple iPad Pro (5th Gen)",
+        "p_cost": 109999,
+        "p_cat": "Electronics",
+        "p_desc": "Powerful tablet from Apple with M1 chip and Liquid Retina XDR display.",
+        "p_img": "https://example.com/images/ipad_pro_5th_gen.jpg"
+    },
+    {
+        "p_id": 58,
+        "p_name": "Nikon D3500 DSLR Camera",
+        "p_cost": 37999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP DSLR camera from Nikon with AF-P DX 18-55mm lens.",
+        "p_img": "https://example.com/images/nikon_d3500.jpg"
+    },
+    {
+        "p_id": 59,
+        "p_name": "Sony Alpha a6000 Mirrorless Camera",
+        "p_cost": 44999,
+        "p_cat": "Electronics",
+        "p_desc": "24.3MP mirrorless camera from Sony with 16-50mm lens.",
+        "p_img": "https://example.com/images/sony_a6000.jpg"
+    },
+    {
+        "p_id": 60,
+        "p_name": "Canon EOS 200D II DSLR Camera",
+        "p_cost": 49999,
+        "p_cat": "Electronics",
+        "p_desc": "24.1MP DSLR camera from Canon with EF-S 18-55mm lens.",
+        "p_img": "https://example.com/images/canon_200d_ii.jpg"
+    },
+    {
+        "p_id": 61,
+        "p_name": "Fujifilm X-T200 Mirrorless Camera",
+        "p_cost": 54999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP mirrorless camera from Fujifilm with XC 15-45mm lens.",
+        "p_img": "https://example.com/images/fujifilm_xt200.jpg"
+    },
+    {
+        "p_id": 62,
+        "p_name": "Olympus OM-D E-M10 Mark III Mirrorless Camera",
+        "p_cost": 41999,
+        "p_cat": "Electronics",
+        "p_desc": "16.1MP mirrorless camera from Olympus with 14-42mm lens.",
+        "p_img": "https://example.com/images/olympus_omd_em10_mkiii.jpg"
+    },
+    {
+        "p_id": 63,
+        "p_name": "Panasonic Lumix G7 Mirrorless Camera",
+        "p_cost": 47999,
+        "p_cat": "Electronics",
+        "p_desc": "16MP mirrorless camera from Panasonic with 14-42mm lens.",
+        "p_img": "https://example.com/images/panasonic_lumix_g7.jpg"
+    },
+    {
+        "p_id": 64,
+        "p_name": "Pentax K-70 DSLR Camera",
+        "p_cost": 45999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP DSLR camera from Pentax with 18-55mm lens.",
+        "p_img": "https://example.com/images/pentax_k70.jpg"
+    },
+    {
+        "p_id": 65,
+        "p_name": "Canon EOS 90D DSLR Camera",
+        "p_cost": 109999,
+        "p_cat": "Electronics",
+        "p_desc": "32.5MP DSLR camera from Canon with EF-S 18-135mm lens.",
+        "p_img": "https://example.com/images/canon_eos_90d.jpg"
+    },
+    {
+        "p_id": 66,
+        "p_name": "Sony Alpha a7 III Mirrorless Camera",
+        "p_cost": 144999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP full-frame mirrorless camera from Sony with 28-70mm lens.",
+        "p_img": "https://example.com/images/sony_a7iii.jpg"
+    },
+    {
+        "p_id": 67,
+        "p_name": "Canon EOS M50 Mark II Mirrorless Camera",
+        "p_cost": 57999,
+        "p_cat": "Electronics",
+        "p_desc": "24.1MP mirrorless camera from Canon with EF-M 15-45mm lens.",
+        "p_img": "https://example.com/images/canon_eos_m50_mkii.jpg"
+    },
+    {
+        "p_id": 68,
+        "p_name": "Canon EOS R Mirrorless Camera",
+        "p_cost": 149999,
+        "p_cat": "Electronics",
+        "p_desc": "30.3MP full-frame mirrorless camera from Canon with RF 24-105mm lens.",
+        "p_img": "https://example.com/images/canon_eos_r.jpg"
+    },
+    {
+        "p_id": 69,
+        "p_name": "Nikon Z6 Mirrorless Camera",
+        "p_cost": 169999,
+        "p_cat": "Electronics",
+        "p_desc": "24.5MP full-frame mirrorless camera from Nikon with 24-70mm lens.",
+        "p_img": "https://example.com/images/nikon_z6.jpg"
+    },
+    {
+        "p_id": 70,
+        "p_name": "Sony Alpha a6400 Mirrorless Camera",
+        "p_cost": 75999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP mirrorless camera from Sony with 16-50mm lens.",
+        "p_img": "https://example.com/images/sony_a6400.jpg"
+    },
+    {
+        "p_id": 71,
+        "p_name": "Fujifilm X-T4 Mirrorless Camera",
+        "p_cost": 154999,
+        "p_cat": "Electronics",
+        "p_desc": "26.1MP mirrorless camera from Fujifilm with XF 18-55mm lens.",
+        "p_img": "https://example.com/images/fujifilm_xt4.jpg"
+    },
+    {
+        "p_id": 72,
+        "p_name": "Olympus OM-D E-M1 Mark III Mirrorless Camera",
+        "p_cost": 124999,
+        "p_cat": "Electronics",
+        "p_desc": "20.4MP mirrorless camera from Olympus with 12-40mm lens.",
+        "p_img": "https://example.com/images/olympus_omd_em1_mkiii.jpg"
+    },
+    {
+        "p_id": 73,
+        "p_name": "Panasonic Lumix S1 Mirrorless Camera",
+        "p_cost": 199999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP full-frame mirrorless camera from Panasonic with 24-105mm lens.",
+        "p_img": "https://example.com/images/panasonic_lumix_s1.jpg"
+    },
+    {
+        "p_id": 74,
+        "p_name": "Canon EOS Rebel T7 DSLR Camera",
+        "p_cost": 34999,
+        "p_cat": "Electronics",
+        "p_desc": "24.1MP DSLR camera from Canon with EF-S 18-55mm lens.",
+        "p_img": "https://example.com/images/canon_rebel_t7.jpg"
+    },
+    {
+        "p_id": 75,
+        "p_name": "Nikon D5600 DSLR Camera",
+        "p_cost": 58999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP DSLR camera from Nikon with AF-P DX 18-55mm lens.",
+        "p_img": "https://example.com/images/nikon_d5600.jpg"
+    },
+    {
+        "p_id": 76,
+        "p_name": "Sony Alpha a7R IV Mirrorless Camera",
+        "p_cost": 259999,
+        "p_cat": "Electronics",
+        "p_desc": "61MP full-frame mirrorless camera from Sony with 24-105mm lens.",
+        "p_img": "https://example.com/images/sony_a7riv.jpg"
+    },
+    {
+        "p_id": 77,
+        "p_name": "Fujifilm X-A7 Mirrorless Camera",
+        "p_cost": 46999,
+        "p_cat": "Electronics",
+        "p_desc": "24.2MP mirrorless camera from Fujifilm with XC 15-45mm lens.",
+        "p_img": "https://example.com/images/fujifilm_xa7.jpg"
+    },
+    {
+        "p_id": 78,
+        "p_name": "Apple iPhone 13 Pro",
+        "p_cost": 119999,
+        "p_cat": "Electronics",
+        "p_desc": "256GB smartphone from Apple with A15 Bionic chip and 6.1-inch display.",
+        "p_img": "https://example.com/images/iphone_13_pro.jpg"
+    },
+    {
+        "p_id": 79,
+        "p_name": "Samsung Galaxy S21 Ultra",
+        "p_cost": 105999,
+        "p_cat": "Electronics",
+        "p_desc": "128GB smartphone from Samsung with Exynos 2100 and 6.8-inch display.",
+        "p_img": "https://example.com/images/galaxy_s21_ultra.jpg"
+    },
+    {
+        "p_id": 80,
+        "p_name": "Apple MacBook Air M1",
+        "p_cost": 92999,
+        "p_cat": "Electronics",
+        "p_desc": "13-inch laptop from Apple with M1 chip, 8GB RAM, and 256GB SSD.",
+        "p_img": "https://example.com/images/macbook_air_m1.jpg"
+    },
+    {
+        "p_id": 81,
+        "p_name": "Dell XPS 13",
+        "p_cost": 134999,
+        "p_cat": "Electronics",
+        "p_desc": "13.3-inch laptop from Dell with Intel Core i7, 16GB RAM, and 512GB SSD.",
+        "p_img": "https://example.com/images/dell_xps_13.jpg"
+    },
+    {
+        "p_id": 82,
+        "p_name": "Samsung Galaxy Tab S7",
+        "p_cost": 57999,
+        "p_cat": "Electronics",
+        "p_desc": "11-inch tablet from Samsung with Snapdragon 865+ and 128GB storage.",
+        "p_img": "https://example.com/images/galaxy_tab_s7.jpg"
+    },
+    {
+        "p_id": 83,
+        "p_name": "Apple iPad Pro 11",
+        "p_cost": 81999,
+        "p_cat": "Electronics",
+        "p_desc": "11-inch tablet from Apple with M1 chip and 128GB storage.",
+        "p_img": "https://example.com/images/ipad_pro_11.jpg"
+    },
+    {
+        "p_id": 84,
+        "p_name": "Sony WH-1000XM4 Headphones",
+        "p_cost": 29999,
+        "p_cat": "Electronics",
+        "p_desc": "Noise-cancelling over-ear headphones from Sony with 30 hours battery life.",
+        "p_img": "https://example.com/images/sony_wh1000xm4.jpg"
+    },
+    {
+        "p_id": 85,
+        "p_name": "Bose QuietComfort 35 II",
+        "p_cost": 25999,
+        "p_cat": "Electronics",
+        "p_desc": "Noise-cancelling over-ear headphones from Bose with 20 hours battery life.",
+        "p_img": "https://example.com/images/bose_qc35_ii.jpg"
+    },
+    {
+        "p_id": 86,
+        "p_name": "Samsung 55-inch QLED TV",
+        "p_cost": 84999,
+        "p_cat": "Electronics",
+        "p_desc": "4K Ultra HD Smart QLED TV from Samsung with Quantum Processor 4K.",
+        "p_img": "https://example.com/images/samsung_qled_55.jpg"
+    },
+    {
+        "p_id": 87,
+        "p_name": "LG 65-inch OLED TV",
+        "p_cost": 199999,
+        "p_cat": "Electronics",
+        "p_desc": "4K Ultra HD Smart OLED TV from LG with α9 Gen 3 AI Processor 4K.",
+        "p_img": "https://example.com/images/lg_oled_65.jpg"
+    },
+    {
+        "p_id": 88,
+        "p_name": "Sony PlayStation 5",
+        "p_cost": 49999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Sony with custom AMD CPU and GPU.",
+        "p_img": "https://example.com/images/ps5.jpg"
+    },
+    {
+        "p_id": 89,
+        "p_name": "Microsoft Xbox Series X",
+        "p_cost": 49999,
+        "p_cat": "Electronics",
+        "p_desc": "Next-gen gaming console from Microsoft with custom AMD CPU and GPU.",
+        "p_img": "https://example.com/images/xbox_series_x.jpg"
+    },
+    {
+        "p_id": 90,
+        "p_name": "Apple Watch Series 7",
+        "p_cost": 39999,
+        "p_cat": "Electronics",
+        "p_desc": "Smartwatch from Apple with GPS, 45mm case, and always-on Retina display.",
+        "p_img": "https://example.com/images/apple_watch_series_7.jpg"
+    },
+    {
+        "p_id": 91,
+        "p_name": "Samsung Galaxy Watch 4",
+        "p_cost": 26999,
+        "p_cat": "Electronics",
+        "p_desc": "Smartwatch from Samsung with Wear OS, 44mm case, and Super AMOLED display.",
+        "p_img": "https://example.com/images/galaxy_watch_4.jpg"
+    },
+    {
+        "p_id": 92,
+        "p_name": "Amazon Echo Dot 4th Gen",
+        "p_cost": 4499,
+        "p_cat": "Electronics",
+        "p_desc": "Smart speaker from Amazon with Alexa, 1.6-inch speaker, and compact design.",
+        "p_img": "https://example.com/images/echo_dot_4th_gen.jpg"
+    },
+    {
+        "p_id": 93,
+        "p_name": "Samsung 65-inch QLED TV",
+        "p_cost": 129999,
+        "p_cat": "Electronics",
+        "p_desc": "4K Ultra HD Smart QLED TV from Samsung with Quantum Processor 4K.",
+        "p_img": "https://example.com/images/samsung_qled_65.jpg"
+    },
+    {
+        "p_id": 94,
+        "p_name": "LG 55-inch OLED TV",
+        "p_cost": 99999,
+        "p_cat": "Electronics",
+        "p_desc": "4K Ultra HD Smart OLED TV from LG with α9 Gen 3 AI Processor 4K.",
+        "p_img": "https://example.com/images/lg_oled_55.jpg"
+    },
+    {
+        "p_id": 95,
+        "p_name": "Sony 75-inch LED TV",
+        "p_cost": 179999,
+        "p_cat": "Electronics",
+        "p_desc": "4K Ultra HD Smart LED TV from Sony with HDR and X1 Ultimate Processor.",
+        "p_img": "https://example.com/images/sony_led_75.jpg"
+    },
+    {
+        "p_id": 96,
+        "p_name": "Samsung 345L Double Door Refrigerator",
+        "p_cost": 42999,
+        "p_cat": "Electronics",
+        "p_desc": "Frost-free double door refrigerator from Samsung with digital inverter technology.",
+        "p_img": "https://example.com/images/samsung_345l_fridge.jpg"
+    },
+    {
+        "p_id": 97,
+        "p_name": "LG 260L Double Door Refrigerator",
+        "p_cost": 32999,
+        "p_cat": "Electronics",
+        "p_desc": "Frost-free double door refrigerator from LG with smart inverter compressor.",
+        "p_img": "https://example.com/images/lg_260l_fridge.jpg"
+    },
+    {
+        "p_id": 98,
+        "p_name": "Whirlpool 340L Double Door Refrigerator",
+        "p_cost": 39999,
+        "p_cat": "Electronics",
+        "p_desc": "Frost-free double door refrigerator from Whirlpool with adaptive intelligence.",
+        "p_img": "https://example.com/images/whirlpool_340l_fridge.jpg"
+    },
+    {
+        "p_id": 99,
+        "p_name": "Samsung 8kg Front Load Washing Machine",
+        "p_cost": 43999,
+        "p_cat": "Electronics",
+        "p_desc": "Fully automatic front load washing machine from Samsung with EcoBubble technology.",
+        "p_img": "https://example.com/images/samsung_8kg_washer.jpg"
+    },
+    {
+        "p_id": 100,
+        "p_name": "LG 6.5kg Front Load Washing Machine",
+        "p_cost": 32999,
+        "p_cat": "Electronics",
+        "p_desc": "Fully automatic front load washing machine from LG with 6 Motion Direct Drive.",
+        "p_img": "https://example.com/images/lg_6.5kg_washer.jpg"
+    }
+]

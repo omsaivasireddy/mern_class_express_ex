@@ -10,75 +10,67 @@ let router = express.Router()
 //database name
 let dbName = 'miniprj'
 //create restapi
-router.post("/", (req, res) => {
-    let obj = req.body
+router.get("/", (req, res) => {
     //connect to mongodb
     mcl.connect(url, (err, conn) => {
         if (err)
-            console.log('Error in connection :- ', err)
+            console.log('Error in connection')
         else {
             let db = conn.db(dbName)
-            db.collection('products').insertOne(obj, (err) => {
+            db.collection('products').find().toArray((err, array) => {
                 if (err)
-                    res.json({ 'insert': 'Error ' + err })
+                    console.log('Error:- ', err)
                 else {
-                    console.log("Data inserted")
-                    res.json({ 'insert': 'success' })
+                    console.log('Data Sent')
+                    res.json(array)
                     conn.close()
                 }
             })
         }
     })
 })
-//Insert User
-router.post("/createUser", (req, res) => {
-    let obj = {
-        "userid": req.body.userid,
-        "u_name": req.body.u_name,
-        "upwd": req.body.upwd,
-        "u_email": req.body.u_email,
-        "u_addr": req.body.u_addr,
-        "u_contact": req.body.u_contact
-    }
+//User login Authentication
+router.post('/auth', (req, res) => {
+    let u_name = req.body.u_name
+    let upwd = req.body.upwd
+    let obj = { u_name, upwd }
     //connect to mongodb
     mcl.connect(url, (err, conn) => {
         if (err)
-            console.log('Error in connection :- ', err)
+            console.log('Error in connection:- ', err)
         else {
             let db = conn.db(dbName)
-            db.collection('users').insertOne(obj, (err) => {
+            db.collection('users').find(obj).toArray((err, array) => {
                 if (err)
-                    res.json({ 'userInsert': 'Error ' + err })
+                    console.log(err)
                 else {
-                    console.log("User inserted")
-                    res.json({ 'userInsert': 'success' })
+                    if (array.length > 0)
+                        res.json({ 'auth': 'success', 'user': u_name })
+                    else
+                        res.json({ 'auth': 'failed' })
+                    console.log('Auth response sent')
                     conn.close()
                 }
             })
         }
     })
 })
-//insert product into cart
-router.post("/cartInsert", (req, res) => {
-    let obj = {
-        "p_id": req.body.p_id,
-        "p_cost": req.body.p_cost,
-        qty: 1,
-        "p_img": req.body.p_img,
-        "u_name": req.body.u_name
-    }
+//Fetch cart data
+router.post("/fetchCart", (req, res) => {
+    let u_name = req.body.u_name
+    let obj = { u_name }
     //connect to mongodb
     mcl.connect(url, (err, conn) => {
         if (err)
-            console.log('Error in connection :- ', err)
+            console.log('Error in connection:- ', err)
         else {
             let db = conn.db(dbName)
-            db.collection('cart').insertOne(obj, (err) => {
+            db.collection('cart').find(obj).toArray((err, array) => {
                 if (err)
-                    res.json({ 'cartInsert': 'Error ' + err })
+                    console.log(err)
                 else {
-                    console.log("Prouct in Cart inserted")
-                    res.json({ 'cartInsert': 'success' })
+                    res.json(array)
+                    console.log(`Cart response for ${obj.u_name} sent`)
                     conn.close()
                 }
             })
